@@ -1,25 +1,11 @@
 <!DOCTYPE html>
 <html>
 <head>
+    <link rel="stylesheet" type="text/css" href="style.css">
     <title>Nested Tag Examples</title>
-    <style>
-            #bottommenu {
-                width: 100%;
-                position: fixed;
-                height: 50px;
-                bottom: 0px;
-                left: 0px;
-                background-color: gray;
-                padding: 5px 5px 20px 5px;
-                color: white;
-            }
-            .floatleft {
-                float: left;
-                padding: 20px;
-            }
-    </style>
 </head>
     <body>
+        <header id="header"><h1>CAT PAGE!!</h1></header>
         <!--nested tag example #1-->
         <div>
             <ul>
@@ -73,11 +59,19 @@
             </h2>
         </div>
     <!--bottom navigation bar-->
-    <div id="bottommenu">
-            <li class="floatleft"> OTHER TEST PAGES: </li>
-            <li class="floatleft"><a href="https://tonybanjo.github.io/tags.html">Tags</a></li>
-            <li class="floatleft"><a href="https://tonybanjo.github.io/attributes.html">Attributes</a></li>
-            <li class="floatleft"><a href="https://tonybanjo.github.io/index.html">Home</a></li>
-    </div>
+    <footer>    
+        <div class="navbox">
+        <div class="textleft">OTHER TEST PAGES:</div>
+            <div class="textcenter">
+                <a href="https://tonybanjo.github.io/index.html">| | Home |</a>
+                <a href="https://tonybanjo.github.io/catpage.html">| Cat Page | |</a>
+                <a href="https://tonybanjo.github.io/inspirations.html">| Inspirations | |</a>
+                <a href="https://tonybanjo.github.io/tags.html">| Tags |</a>
+                <a href="https://tonybanjo.github.io/nested.html">| Nested |</a>
+                <a href="https://tonybanjo.github.io/attributes.html">| Attributes | |</a>
+            </div>
+            <div class="textright"><span style="font-family: monospace;">&copy Tony Ban-Jo</span></div>
+        </div>
+    </footer>
     </body>
 </html>

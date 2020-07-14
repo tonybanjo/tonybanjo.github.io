@@ -1,0 +1,175 @@
+html {
+    height: 100%;
+    width: 100%;
+    top left: 0px;
+    margin: 0px;
+}
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    color: hsl(150, 25%, 25%);
+    background-color: hsl(150, 25%, 95%);
+    height:90%;
+    width: 100%;
+    top: 10%;
+    margin-bottom:50%;
+    position: absolute;
+    overflow: scroll;
+}
+h1 {
+    font-size: 4vh;
+    vertical-align: middle;
+}
+h2 {
+    font-size: 3vh;
+    vertical-align: middle;
+}
+h3 {
+    font-size: 2.5vh;
+    vertical-align: middle;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+p {
+    margin: 0px 25% 0px 25%;
+    text-align: justify;
+    padding: 10px;
+}
+img {
+    border-style:double;
+    border-color: lime;
+    border-width: 10px;
+    height: 40vw;
+    width:auto;
+}
+a, a:visited, a:active {
+    text-decoration: none;
+    color: hsl(27, 40%, 61%);
+}
+a:hover {
+    color: darkred;
+}
+li {
+    list-style: inside;
+}
+footer {
+    position: fixed;
+    height: 5%;
+    width: 100%;
+    left: 0px;
+    bottom: 0px;
+    background-color: hsl(180, 43%, 70%) ;
+    color: hsl(150, 55%, 90%);
+    font-size: 2.5vh;
+    padding: 10px 0px;
+    overflow: hidden;
+}
+header {
+    position: fixed;
+    height: 5%;
+    width: 100%;
+    top: 0px;
+    left: 0px;
+    background-color: hsl(180, 43%, 70%) ;
+    padding: 5px 5px 5px 5px;
+    color: hsl(150, 55%, 90%);
+    font-size: 20px;
+    vertical-align: center;
+    overflow: hidden;
+}
+.navbox {
+    width: 95%;
+    margin:auto;
+}
+.textcenter {
+    float: left;
+    width:33.3%;
+    text-align:center;
+}
+.textleft{
+    float: left;
+    width:33.3%;
+    text-align:left;
+}
+.textright{
+    float: left;
+    width:33.3%;
+    text-align:right;
+}
+.floatleft {
+    float: left;
+    padding: 20px;
+}
+#header h1 {
+    color: darkslategray;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    margin: auto;
+    text-align: center;
+}
+footer .textright {
+    color: black;
+}
+footer a:hover {
+    color: lightsalmon;
+}
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+.cats {
+    width: 75%;
+    height: auto;
+    text-align: center;
+}
+#floatingcathead {
+    position: fixed;
+    height: 150px;
+    width: 150px;
+    z-index:1000;
+    background-color: transparent;
+    border-style: none;
+    animation-name: catheadspin;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+#floatingcathead img {
+    height: 100%;
+    width: auto;
+    border-style: none;
+}
+@keyframes catheadspin {
+	0% {
+        transform: rotateZ(0);
+	}
+	100% {
+        transform: rotateZ(360deg);
+    }
+}
+.list {
+    background-color: hsl(150, 25%, 65%);
+    border: 5px solid darkred;
+    text-align: justify;
+    padding: 0px 10px 10px 0px;
+    overflow: hidden;
+}
+.list h2{
+    color: hsl(150, 25%, 95%);
+    font-family: cursive;
+    font-size: 4em;
+    text-align: center;
+    line-height: 0em;
+}
+.list u:before {
+    content: "..........";
+    color: transparent;
+}
+
+.list u:after {
+    content: "........";
+    color: transparent;
+}

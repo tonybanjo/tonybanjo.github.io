@@ -1,64 +1,16 @@
 <!DOCTYPE html>
 <html lang="en-US">
     <head>
+        <link rel="stylesheet" type="text/css" href="style.css">
         <title>Attribute Examples</title>
         <!--meta attribute to specify character encoding-->
         <meta charset="UTF-8">
         <!--meta attribute to specify the name and content for meta data. Not sure if I used this correctly-->
         <meta name="attribute test page" content="html practice site for web development class">
-        <!--I put a little bit of CSS...probably getting ahead of myself-->
-        <style>
-            html {
-                height:100%;
-                width: 100%;
-                padding: 0px;
-                margin: 0px;
-            }
-            a {
-                color: black;
-            }
-            a:hover {
-                color:darkred;
-            }
-            body {
-                font-family: Arial, Helvetica, sans-serif;
-                background-color: bisque;
-                color: darkslategrey;
-            }
-            .list{
-                width: 25%;
-                border-color: black;
-                border-style: dashed;
-                margin-left: 5px;
-                background-color: lightgray;
-                padding: 5px 15px 5px 5px;
-                text-align: left;
-                height: 300px;
-            }
-            img {
-                border-style:double;
-                border-color: lime;
-                border-width: 10px;
-            }
-            #bottommenu {
-                width: 100%;
-                position: fixed;
-                height: 50px;
-                bottom: 0px;
-                left: 0px;
-                background-color: gray;
-                padding: 5px 5px 20px 5px;
-                color: white;
-            }
-            .floatleft {
-                float: left;
-                padding: 20px;
-            }
-        </style>
     </head>
         <body>
+            <header id="header"><h1>This Might Have Been What My Website Looked Like In The 90's</h1></header>
             <center>
-            <h1>This Might Have Been What My Website Looked Like In The 90's</h1>
             <!--accessibility attributes, title displays text upon mouse hover, alt for alternative text if the image does not load-->
             <img src="https://thumbs.gfycat.com/JoyfulAfraidAltiplanochinchillamouse.webp" title="this is a GIF!" alt="under construction" height="100px" width="100px">
             <h2><u>Fun with Attributes</u></h2>
@@ -101,12 +53,20 @@
                         <q>Be yourself; everyone else is already taken. <em>-Oscar Wilde</em></q>
                     </p>
             </div>
-            <div id="bottommenu">
-                    <li class="floatleft"> OTHER TEST PAGES: </li>
-                    <li class="floatleft"><a href="https://tonybanjo.github.io/tags.html">Tags</a></li>
-                    <li class="floatleft"><a href="https://tonybanjo.github.io/nested.html">Nested</a></li>
-                    <li class="floatleft"><a href="https://tonybanjo.github.io/index.html">Home</a></li>
-            </div>
+            <footer>    
+                <div class="navbox">
+                <div class="textleft">OTHER TEST PAGES:</div>
+                    <div class="textcenter">
+                        <a href="https://tonybanjo.github.io/index.html">| | Home |</a>
+                        <a href="https://tonybanjo.github.io/catpage.html">| Cat Page | |</a>
+                        <a href="https://tonybanjo.github.io/inspirations.html">| Inspirations | |</a>
+                        <a href="https://tonybanjo.github.io/tags.html">| Tags |</a>
+                        <a href="https://tonybanjo.github.io/nested.html">| Nested |</a>
+                        <a href="https://tonybanjo.github.io/attributes.html">| Attributes | |</a>
+                    </div>
+                    <div class="textright"><span style="font-family: monospace;">&copy Tony Ban-Jo</span></div>
+                </div>
+            </footer>
         </body>
 
 </html>

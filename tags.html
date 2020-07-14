@@ -2,6 +2,7 @@
 <html>
     <head>
         <!--Document info and styling tags in the header-->
+        <link rel="stylesheet" type="text/css" href="style.css">
         <title>Tag Examples</title>
         <meta ="meta content goes here">
        <!--I put a little bit of CSS...probably getting ahead of myself-->
@@ -45,7 +46,7 @@
         <!--Body of page starts here-->
 
         <body><center> <!--all body elements are centered-->
-            <h1>This Might Have Been What My Website Looked Like In The 90's</h1>
+            <header id="header"><h1>This Might Have Been What My Website Looked Like In The 90's</h1></header>
             <img src="https://thumbs.gfycat.com/JoyfulAfraidAltiplanochinchillamouse.webp">
             <h2><u>Inspirations</u></h2>
             <p> 
@@ -86,14 +87,22 @@
                 </ol>
             </div>
             <h1>TO BE CONTINUED...</h1>
-        <!--navigation bar that is fixed to the bottom of the page-->
-        <div id="bottommenu">
-                <li class="floatleft"> OTHER TEST PAGES: </li>
-                <li class="floatleft"><a href="https://tonybanjo.github.io/attributes.html">Attributes</a></li>
-                <li class="floatleft"><a href="https://tonybanjo.github.io/nested.html">Nested</a></li>
-                <li class="floatleft"><a href="https://tonybanjo.github.io/index.html">Home</a></li>
-        </div>
         </center>
+        <!--navigation bar that is fixed to the bottom of the page-->
+        <footer>    
+            <div class="navbox">
+            <div class="textleft">OTHER TEST PAGES:</div>
+                <div class="textcenter">
+                    <a href="https://tonybanjo.github.io/index.html">| | Home |</a>
+                    <a href="https://tonybanjo.github.io/catpage.html">| Cat Page | |</a>
+                    <a href="https://tonybanjo.github.io/inspirations.html">| Inspirations | |</a>
+                    <a href="https://tonybanjo.github.io/tags.html">| Tags |</a>
+                    <a href="https://tonybanjo.github.io/nested.html">| Nested |</a>
+                    <a href="https://tonybanjo.github.io/attributes.html">| Attributes | |</a>
+                </div>
+                <div class="textright"><span style="font-family: monospace;">&copy Tony Ban-Jo</span></div>
+            </div>
+        </footer>
         </body>
         
         <!--End of body of page-->
