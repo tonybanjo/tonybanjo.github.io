@@ -16,6 +16,17 @@ body {
     position: absolute;
     overflow: scroll;
 }
+button {
+    height: 25 px;
+    font-size: 18px;
+    width: 50%;
+    background-color: white;
+    border: solid 2px black;
+    font-family: monospace;
+}
+button:hover {
+    background-color: palevioletred;
+}
 h1 {
     font-size: 4vh;
     vertical-align: middle;
@@ -36,10 +47,11 @@ p {
     padding: 10px;
 }
 img {
-    border-style:double;
-    border-color: lime;
-    border-width: 10px;
-    height: 40vw;
+    border-style:solid;
+    border-radius: 5%;
+    border-color:darkslategrey;
+    border-width: 7px;
+    height: 30vw;
     width:auto;
 }
 a, a:visited, a:active {
@@ -100,7 +112,7 @@ header {
     float: left;
     padding: 20px;
 }
-#header h1 {
+header h1 {
     color: darkslategray;
     font-family: 'Courier New', Courier, monospace;
     font-weight: bold;
@@ -172,4 +184,78 @@ footer a:hover {
 .list u:after {
     content: "........";
     color: transparent;
+}
+
+.fullbleed {
+    background-size: cover; background-position: center; background-attachment: fixed;
+}
+
+.newdiv {
+    width: 300px;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: deeppink;
+    position: fixed;
+    top: 75px;
+    left: 50px;
+    border-radius: 50%;
+    color: ghostwhite;
+    font-stretch: extra-condensed;
+    font-family: 'Courier New', Courier, monospace;
+    text-shadow: 5px 5px 5px black;
+}
+.buttonbox {
+    width: 40%;
+    margin: 0 auto;
+    height: 60%;
+    padding: 25px;
+    text-align: center;
+    background-color: floralwhite;
+    border: solid 5px black;
+    color: #000f0f;
+    line-height: 30px;
+    overflow: scroll;
+}
+.numbergenerator {
+    font-size: 4em;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    color: fuchsia;
+    padding: 10px;
+    line-height: 75px;
+    background-color: honeydew;
+    border: solid 3px black;
+    height: 75px;
+    width: 75px;
+    margin: auto;
+}
+@keyframes stars {
+    0% {
+        width: 2px;
+        height: 2px;
+    }
+    100% {
+        width: 7px;
+        height: 7px;
+    }
+}
+
+.stars {
+    width: 2px;
+    height: 2px;
+    top: 10%;
+    left: 10%;
+    border-radius: 50%;
+    filter: blur(2px);
+    background-color: lemonchiffon;
+    position: fixed;
+    z-index: 10000;
+    animation-name: stars;
+    animation-duration: 500ms;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    animation-direction: alternate;
+    
 }
