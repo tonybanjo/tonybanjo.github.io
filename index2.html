@@ -1,0 +1,115 @@
+<!doctype html>
+<html lang="en">
+<!--Page Header-->
+    <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Custom CSS
+    <link rel="stylesheet" type="text/css" href="style.css">
+    -->
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+
+    <title>Tony Ban-Jo's Web Development Journey</title>
+  </head>
+<body>
+    <!--Navigation Bar-->
+
+
+    <nav class="navbar navbar-default">
+        <div class="container-fluid">
+          <div class="navbar-header">
+            <a class="nav-brand" href="#">Tony Ban-Jo's Web Development Journey | </a>
+          </div>
+          <ul class="nav navbar-nav">
+            <li class="active">
+                <a href="#">Home</a>
+            </li>
+            <li>
+                <a href="#">Bio</a>
+            </li>
+            <li>
+                <a href="#">My Journey</a>
+            </li>
+            <li>
+                <a href="#">Our Team</a>
+            </li>
+        </ul>
+        </div>
+    </nav>
+
+
+
+
+        <center><img src="http://tonybanuelos.com/Other/meltingsnowsuit_slide.jpg" alt="Tony's Profile Picture"></center>
+    </div>
+    <center><h2>| About this Project |</h2></center>
+    <p style="text-align: justify;" id="change">
+        This webpage is dedicated to my <span style="font-weight: bolder ;">web development</span> journey.
+        Here you can follow me as I learn HTML, CSS, and JavaScript.
+        My skills will improve week to week, building towards a visually striking
+        and well organized website for all to enjoy!
+    </p>
+    <!--JavaScript Examples-->
+    <center><h2>| JavaScript Examples |</h2></center>
+    <h3>Below are some examples of using Javascript to dynamically change this webpage!</h3>
+    <div class="buttonbox">
+        This is an example of JavaScript changing HTML contentm (see text in 'about this project'):
+        <br>
+        <button type="button" onclick="textChange()">CLICK ME FOR JAVASCRIPT TAKEOVER!</button>
+        <br>
+        This is an example of JavaScript changing CSS properties:
+        <br>
+        <button type="button" onclick="nightMode()">Enter Night Mode</button>
+        <br>
+        This is an example of JavaScript adding an HTML element:
+        <br>
+        <button type="button" onclick="createDiv()">Click to Make a Pink Circle Appear!</button>
+        <br>
+        <br>
+        This is an example of using JavaScript to respond to a user defined input. (Note: clicking 'submit' will refresh the page):
+        <br>
+        <form action="#" method="post" name="colorform" id="favcolorform">
+            <label for = "favcolor">What is your favorite color?</label>
+            <input type="text" name="favcolor" id="favcolor" value="type favorite color here">
+            <input type="submit" value="Submit" onclick="colorResponse()">
+        </form>
+        <br>
+        This is an example of using JavaScript to generate a random number based off of a user defined input:
+        <br>
+        <label for="number"> Please select a number 1-100 to determine the number of sides on your die!</label>
+        <input type="number" id="number_select" value="100" min="1" max="100"></input>
+        <button type="button" onclick="numberDiv()">Roll The Die!</button>
+        <br>
+        <br>
+        <p id="numberdiv" class="numbergenerator"></p>
+        <br>
+        This example brings together the above examples to do something creative with JavaScript. Here you can generate stars.
+        The number of stars that will generate is equal to the random number that has been selected. Each time you click the button below,
+        you will generate more stars. <strong>Don't forget to activate night mode!</strong> Refresh the page to start over!
+        <br>
+        <br>
+        <button type="button" onclick="starrySky()">Generate Stars</button>
+        
+    </div>
+    <br>
+    <!--menu bar fixed to the bottom of the page-->
+    
+    <footer id="night2">  
+        <div class="navbox">
+        <div class="textleft">OTHER TEST PAGES:</div>
+            <div class="textcenter">
+                <a href="https://tonybanjo.github.io/index.html">| | Home |</a>
+                <a href="https://tonybanjo.github.io/catpage.html">| Cat Page | |</a>
+                <a href="https://tonybanjo.github.io/inspirations.html">| Inspirations | |</a>
+                <a href="https://tonybanjo.github.io/tags.html">| Tags |</a>
+                <a href="https://tonybanjo.github.io/nested.html">| Nested |</a>
+                <a href="https://tonybanjo.github.io/attributes.html">| Attributes | |</a>
+            </div>
+            <div class="textright"><span style="font-family: monospace;">&copy Tony Ban-Jo</span></div>
+        </div>
+    </footer>
+<script src="functions.js"></script>
+</body>
+</html>
