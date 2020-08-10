@@ -1,3 +1,12 @@
+/* Font Faces */
+@font-face {
+    font-family: potra, monospace, helvetica;
+    src: url(fonts/potra.ttf);
+ }
+
+/* MAIN HTML SELECTORS */
+
+
 html {
     height: 100%;
     width: 100%;
@@ -7,29 +16,18 @@ html {
 body {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 16px;
-    color: hsl(150, 25%, 25%);
-    background-color: hsl(150, 25%, 95%);
-    height:90%;
+    background: lightblue url("images/bgimg.jpg") no-repeat fixed center;
+    background-size: cover;
+    height:100%;
     width: 100%;
-    top: 10%;
     margin-bottom:50%;
     position: absolute;
     overflow: scroll;
-}
-button {
-    height: 25 px;
-    font-size: 18px;
-    width: 50%;
-    background-color: white;
-    border: solid 2px black;
-    font-family: monospace;
-}
-button:hover {
-    background-color: palevioletred;
+    color: rgb(235, 235, 226);
 }
 h1 {
-    font-size: 4vh;
-    vertical-align: middle;
+    color: seashell;
+    font-family: potra, monospace, helvetica;
 }
 h2 {
     font-size: 3vh;
@@ -41,29 +39,12 @@ h3 {
     text-align: center;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
-p {
+/* p {
     margin: 0px 25% 0px 25%;
     text-align: justify;
     padding: 10px;
 }
-img {
-    border-style:solid;
-    border-radius: 5%;
-    border-color:darkslategrey;
-    border-width: 7px;
-    height: 30vw;
-    width:auto;
-}
-a, a:visited, a:active {
-    text-decoration: none;
-    color: hsl(27, 40%, 61%);
-}
-a:hover {
-    color: darkred;
-}
-li {
-    list-style: inside;
-}
+*/
 footer {
     position: fixed;
     height: 5%;
@@ -89,9 +70,73 @@ header {
     vertical-align: center;
     overflow: hidden;
 }
-.navbox {
-    width: 95%;
-    margin:auto;
+img {
+    border-style:solid;
+    border-color:rgb(27, 27, 22);
+}
+
+
+/* BUTTONS, LINKS, HOVER SELECTORS */
+
+
+button {
+    height: 25 px;
+    font-size: 18px;
+    width: 50%;
+    background-color: white;
+    border: solid 2px black;
+    font-family: monospace;
+}
+button:hover {
+    background-color: palevioletred;
+}
+a, a:visited, a:active {
+    text-decoration: none;
+    color: hsl(27, 40%, 61%);
+}
+a:hover {
+    color: darkred;
+}
+
+
+/* ID SELECTORS */
+
+#homeintro {
+    height: 50%;
+    width: 60%;
+    background-color: rgb(136, 98, 75);
+    opacity: 75%;
+    border:rgb(27, 27, 22) solid 10px;
+    border-radius: 2px;
+    display: flex;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    text-align: center;
+    overflow: scroll;
+}
+#hometext {
+    background-color: whitesmoke;
+    height: 100%;
+    width: 120%;
+    overflow: scroll;
+    z-index: 1001;
+    padding: 30px;
+    justify-items: center;
+    align-items: center;
+    text-align: justify;
+}
+
+/* CLASS SELECTORS */
+.bodycontainer {
+    width: 100%;
+    height:100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    overflow: scroll;
 }
 .textcenter {
     float: left;
@@ -112,13 +157,7 @@ header {
     float: left;
     padding: 20px;
 }
-header h1 {
-    color: darkslategray;
-    font-family: 'Courier New', Courier, monospace;
-    font-weight: bold;
-    margin: auto;
-    text-align: center;
-}
+
 footer .textright {
     color: black;
 }
@@ -130,37 +169,6 @@ footer a:hover {
     margin-left: auto;
     margin-right: auto;
     width: 50%;
-}
-
-.cats {
-    width: 75%;
-    height: auto;
-    text-align: center;
-}
-#floatingcathead {
-    position: fixed;
-    height: 150px;
-    width: 150px;
-    z-index:1000;
-    background-color: transparent;
-    border-style: none;
-    animation-name: catheadspin;
-    animation-duration: 4s;
-    animation-iteration-count: infinite;
-    animation-timing-function: linear;
-}
-#floatingcathead img {
-    height: 100%;
-    width: auto;
-    border-style: none;
-}
-@keyframes catheadspin {
-	0% {
-        transform: rotateZ(0);
-	}
-	100% {
-        transform: rotateZ(360deg);
-    }
 }
 .list {
     background-color: hsl(150, 25%, 65%);
@@ -189,7 +197,23 @@ footer a:hover {
 .fullbleed {
     background-size: cover; background-position: center; background-attachment: fixed;
 }
+/*------------------------------
+    JAVASCRIPT CLASS SELECTORS 
+------------------------------*/
 
+.numbergenerator {
+    font-size: 4em;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    color: fuchsia;
+    padding: 10px;
+    line-height: 75px;
+    background-color: honeydew;
+    border: solid 3px black;
+    height: 75px;
+    width: 75px;
+    margin: auto;
+}
 .newdiv {
     width: 300px;
     height: 300px;
@@ -218,30 +242,50 @@ footer a:hover {
     line-height: 30px;
     overflow: scroll;
 }
-.numbergenerator {
-    font-size: 4em;
-    font-family: 'Times New Roman', Times, serif;
-    text-align: center;
-    color: fuchsia;
-    padding: 10px;
-    line-height: 75px;
-    background-color: honeydew;
-    border: solid 3px black;
-    height: 75px;
-    width: 75px;
-    margin: auto;
+.navtitle {
+    font-family: 'Gravitas One', monospace;
 }
-@keyframes stars {
-    0% {
-        width: 2px;
-        height: 2px;
-    }
-    100% {
-        width: 7px;
-        height: 7px;
-    }
+/*-------------------------------------
+    BOOTSTRAP CUSTOMIZATION SELECTORS
+--------------------------------------*/
+.navbar-light{
+    background-color: rgb(235, 235, 226);
+}
+.navbar-brand{
+    border: rgb(27, 27, 22) solid 3px;
+    background-image: url("tblogo.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-clip: border-box;
+    background-color: rgb(27, 27, 22);
 }
 
+
+/* -------------------
+ANIMATION  COMPONENTS
+---------------------- */
+
+
+/* ANIMATION ID SELECTORS */
+#floatingcathead {
+    position: fixed;
+    height: 150px;
+    width: 150px;
+    z-index:1000;
+    background-color: transparent;
+    border-style: none;
+    animation-name: catheadspin;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+#floatingcathead img {
+    height: 100%;
+    width: auto;
+    border-style: none;
+}
+/* ANIMATION CLASS SELECTORS */
 .stars {
     width: 2px;
     height: 2px;
@@ -256,6 +300,29 @@ footer a:hover {
     animation-duration: 500ms;
     animation-iteration-count: infinite;
     animation-timing-function: linear;
-    animation-direction: alternate;
-    
+    animation-direction: alternate;  
+}
+.cats {
+    width: 75%;
+    height: auto;
+    text-align: center;
+}
+/* ANIMATION KEYFRAMES */
+@keyframes stars {
+    0% {
+        width: 2px;
+        height: 2px;
+    }
+    100% {
+        width: 7px;
+        height: 7px;
+    }
+}
+@keyframes catheadspin {
+    0% {
+        transform: rotateZ(0);
+    }
+    100% {
+        transform: rotateZ(360deg);
+    }
 }
