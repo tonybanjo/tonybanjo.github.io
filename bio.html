@@ -2,49 +2,130 @@
 <html lang="en">
 <!--Page Header-->
     <head>
+        <style>
+            h1 {
+                font-size: 7vw !important;
+            }
+            #jumbo-bg {
+                background: url("http://www.tonybanuelos.com/Other/meltingsnowsuit_slide.jpg");
+                background-position: bottom;
+                background-repeat: no-repeat;
+                background-size: cover;
+            }
+            .bg-opacity-70 {
+                background-color: rgba(236, 235, 235, .7) !important;
+            }
+        </style> 
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Embedded Fonts-->
+    <link href="https://fonts.googleapis.com/css2?family=Gravitas+One&display=swap" rel="stylesheet">
+    <!-- Custom CSS-->
+    <link rel="stylesheet" type="text/css" href="custom.css">
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
 
-    <title>Bio</title>
+    <title>A Ban-Jo Bio</title>
   </head>
 <!--Page Body-->
   <body>
 <!-- Navbar -->
-<nav class="navbar navbar-expand-lg navbar-light bg-light">
+<nav class="navbar navbar-expand-lg navbar-dark">
     <img class="navbar-brand" src="images/tblogo.png" height="50px" width="50px">
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
       <ul class="navbar-nav mr-auto">
-        <li class="nav-item active">
-          <a class="nav-link active" href="index.html">Home <span class="sr-only">(current)</span></a>
+        <li class="nav-item">
+          <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
         </li>
-        <li class="nav-item active">
+        <li class="nav-item">
             <a class="nav-link active" href="bio.html">Bio <span class="sr-only">(current)</span></a>
           </li>
         <li class="nav-item dropdown">
           <a class="nav-link dropdown-toggle" href="myjourney.html" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
             My Journey
           </a>
-          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-            <a class="dropdown-item" href="htmlpage.html">HTML Page</a>
-            <a class="dropdown-item" href="csspage.html">CSS Page</a>
-            <a class="dropdown-item" href="javascriptpage.html">Javascript Page</a>
+          <div class="dropdown-menu bg-dark" aria-labelledby="navbarDropdown">
+            <a class="dropdown-item bg-dark text-muted" href="htmlpage.html">HTML Page</a>
+            <a class="dropdown-item bg-dark text-muted" href="csspage.html">CSS Page</a>
+            <a class="dropdown-item bg-dark text-muted" href="javascriptpage.html">Javascript Page</a>
+            <a class="dropdown-item bg-dark text-muted" href="bootstrappage.html">Bootstrap Page</a>
           </div>
           <li class="nav-item">
-            <a class="nav-link" href="#">Our Team<span class="sr-only">(current)</span></a>
+            <a class="nav-link" href="teampage.html">Our Team<span class="sr-only">(current)</span></a>
           </li>
         </li>
       </ul>
     </div>
   </nav>
 
-    <h1>About Me Section Will go Here</h1>
-    <img src="http://tonybanuelos.com/Other/meltingsnowsuit_slide.jpg">
+<div class="jumbotron jumbotron-fluid" id="jumbo-bg">
+    <h1 class="pl-5">About Me</h1>
+</div>
+
+<div class="jumbotron jumbotron-fluid bg-opacity-70 mt-1">
+    <div class="row">
+        <div class="col-sm-4">
+            <img class="ml-5 mr-3 mt-3" src="images/greenface.jpg" width="90%" height="auto">
+        </div>
+        <div class="col-sm-8 pr-5">
+            <h2 class="display-3">Hi! I am Tony Ban-Jo.</h2>
+            <h2 class="display-5 text-muted">I'm an Artist and a Creative Jack-of-All-Trades</h2>
+            
+            <p class="lead pr-5">I consider myself an artist who dabbles in all creative worlds. I always have a project going, often having too many projects and not enough
+                 focus. My education was in studio art, with an emphasis in Sculpture. To me, sculpture has become the medium of endless possibilities. For the last 100 years or so 
+                 artist have taken the fundamentals of form, space, mass, and material and really pushed the boundaries of what sculpture can be. It has since been (mostly) decided 
+                 that sculpture can take the form of all other mediums. One can work in a traditional sense, chiseling marble figures or one can cut out a section of a roof to expose the clouds 
+                 as a moving-painting. In my sculptural practice, I have worked with traditional materials, such as wood and metal, but also used found-objects, performance, video, 3D printing, 3D modeling,
+                 and graphic design to create. I love learning new skills and employing those skills as tools for creativity!
+            </p>
+        </div>
+    <div class="w-100"></div>
+        <div class="col-sm-4">
+            <img class="ml-5 mr-3 mt-5" src="images/greenface.jpg" width="90%" height="auto">
+        </div> 
+        <div class="col-sm-8 pr-5">  
+            <h2 class="display-5 text-muted">Early Years of Culture, Technology, and Being Bored at Kinkos</h2>
+            <p class="lead pr-5">I had many opportunities for creativity when I was young, my older siblings and cousins were all creative in different ways. Being
+                one of the younger kids around, I was able to absorb everything that they were into. I had cousins who liked comics, my sister loved to draw and write poetry, 
+                other cousins were into graffiti art, some were into rave culture and music. My mom worked at Kinkos when I was in elementary school, sometimes I would have to 
+                hang out there for her entire shift. She would sit me at the computer lab, where I would play Prince of Persia, Mist, Tetris, or draw things in Photoshop. I got a lot of
+                 Photoshop time in while I was young. I was also able to browse the internet for HOURS on end (this was in the mid-90s). America On-Line, or AOL, was all the rage at the time. It 
+                 cost money by the minute at home, but at Kinkos...it was unlimited. I quickly grew a love for all things internet. With the internet I was able to explore 
+                 everything that my older siblings and cousins were into. I would find pages dedicated to comics, graffiti, video games, and music. It was the most incredible thing for a young
+                 spongy mind to encounter. I started to learn about web development at this time. I did not know that it was called web development, but I knew that I could make my own website
+                 and post pictures of things that I created and write about things that I liked! My first website came in 6th grade, dedicated to my fishing club but styled like a rave-flyer (I had just 
+                 seen the movie, Hackers). The site was hosted by Angelfire or Geocities (I can't remember). The internet was and still is a large part of what inspires my creativity. 
+            </p>
+        </div>
+            <div class="w-100"></div>
+            <div class="col-sm-4">
+                <img class="ml-5 mr-3 mt-5" src="images/greenface.jpg" width="90%" height="auto">
+            </div>
+        <div class="col-sm-8 pr-5">
+            <h2 class="display-5 text-muted">My Web Development Story</h2>
+            
+            <p class="lead pr-5">The internet is so ubiqutous and intertwined in everyday life that now it is hard to imagine it as it once was. The website I created in 6th grade used maybe 
+                5 tags. It probably took 5 minutes to load the 1 giant jpg file. It was clunky and not formatted at all! I remember looking at Nintendo's flawless, seamless website trying to copy and paste
+                code onto my site, only to have it not work at all! This did lead me to more exploration. I can't remember specifically the next website I attempted, but there were many. I know that I stumbled upon
+                 flash, frame tags, and applets. This lead to something a little cooler, but still very clunky. Fast forward to college (early 2000s), and I was able to program a very nice page with 1 embedded flash file using 
+                 adobe dreamweaver. I thought this was the future...fully customizable layouts and nice animated menus and buttons. They took forever to load and required the user to download the plug-in. They also 
+                 were prone to crashing constantly. CSS existed back then, but was not the norm. After college, I was able to hone my web development skills a little further and create a portfolio site using CSS. However, right around this time
+                  many companies were developing sites that made it easy to make your own page (precursors to squarespace). Also, facebook had taken off while I was in college, so I would just share everything on my page there.
+                  In my 20s, I felt like a had less and less time to dive into web-development. It had always been an interest, but never became my passion and so I would find myself taking long hiatuses from learning new skills.
+                  This would cause the technology to get ahead of my skill level, forcing me to reteach myself everytime I had a new web-project. After all these years, I am finally ready to approach
+                  the journey head-on, staying consistant and focused, determined to build up the foundation that was always lacking! 
+            </p>
+        </div>
+        <div class="w-100"></div>
+        <div class="col-sm offset-md-3 text-center mt-4 px-5">
+            <button type="button" class="btn btn-dark px-2"><a href ="htmlpage.html">Start My Journey</a></button>
+        </div>
+    </div>
+</div>
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->

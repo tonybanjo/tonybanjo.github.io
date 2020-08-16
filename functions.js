@@ -26,6 +26,9 @@ function nightMode() {
     document.getElementById("night").style.color = "#C8A2C8";
     document.getElementById("night2").style.background = "#000000";
     document.getElementById("night2").style.color = "#C8A2C8";
+    document.getElementById("night3").style.background = "#1a2421";
+    document.getElementById("night3").style.color = "#C8A2C8";
+    document.getElementById("nighttext").style.color = "#C8A2C8";
 }
 
 // This function will append a new div container with the CSS class 'newdiv'

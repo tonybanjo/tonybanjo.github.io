@@ -1,0 +1,215 @@
+<!doctype html>
+<html lang="en">
+  <head>
+     <!-- Required meta tags -->
+     <meta charset="utf-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+     <!-- Embedded Fonts-->
+     <link href="https://fonts.googleapis.com/css2?family=Gravitas+One&display=swap" rel="stylesheet">
+     <!-- Custom CSS-->
+     <link rel="stylesheet" type="text/css" href="custom.css">
+     <!-- Bootstrap CSS -->
+     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+ 
+    <title>Bootstrap Examples</title>
+  </head>
+  <!--Page Body-->
+  <body>
+
+<!-- Navbar -->
+<nav class="navbar navbar-expand-lg navbar-dark">
+    <img class="navbar-brand" src="images/tblogo.png" height="50px" width="50px">
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="bio.html">Bio <span class="sr-only">(current)</span></a>
+          </li>
+        <li class="nav-item dropdown active">
+          <a class="nav-link dropdown-toggle" href="myjourney.html" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            My Journey
+          </a>
+          <div class="dropdown-menu bg-dark" aria-labelledby="navbarDropdown">
+            <a class="dropdown-item bg-dark text-muted" href="htmlpage.html">HTML Page</a>
+            <a class="dropdown-item bg-dark text-muted" href="csspage.html">CSS Page</a>
+            <a class="dropdown-item bg-dark text-muted" href="javascriptpage.html">Javascript Page</a>
+            <a class="dropdown-item bg-dark active" href="bootstrappage.html">Bootstrap Page</a>
+          </div>
+          <li class="nav-item">
+            <a class="nav-link" href="teampage.html">Our Team<span class="sr-only">(current)</span></a>
+          </li>
+        </li>
+      </ul>
+    </div>
+  </nav>
+  <!--Bootstrap Example #3: Bootstrap Jumbotron Test, -->
+    <div class="jumbotron jumbotron-fluid mt-5 mr-5 ml-5"> 
+        <div class="container">
+          <h1 class="display-2 text-center" style="color: black;">Week 6: Bootstrap</h1>
+          <p class="lead">Week 6 was the Bootstrap assignment. I was excited for this assignment, because I have run into the problem of designing for <span class="font-weight-bold font-italic">my laptop screen.</span> Spending hours on a meticulous layout only to find
+            a hot mess when viewed on another device or browser. Bootstrap solves that issue. It has been challenging, yet fun to learn. There are so many pre-defined classes it can be 
+              hard to memorize without constantly consulting the bootstrap documentation page. Once I had a few of them down, I noticed how much time I saved not having to create a 
+              class for each element. <span class="font-weight-bold">Below are some examples of elements that use Bootstrap.<span class="font-weight-bold font-italic"></span>
+          </p>
+        </div>
+    </div>
+    <!--Bootstrap Example #4: Bootstrap responsive containers using row class and number of column each child div takes up -->
+    <div class="container mb-4">  
+        <div class="row">  
+          <div class="col-sm-8 col-lg-4 text-center" style="background-color: aquamarine;"><span class="display-4">Responsive column 1</span></div>  
+          <div class="col-sm-8 col-lg-4 text-center" style="background-color:blue;"><span class="display-4">Responsive column 2</span></div>  
+          <div class="col-sm-8 col-lg-4 text-center" style="background-color: darkcyan;"><span class="display-4">Responsive column 3</span></div>  
+        </div>  
+      </div>
+    <!--Bootstrap Example #5: Bootstrap responsive "card" containers with image, heading, and description -->
+        <div class="container">  
+            <div class="row"> 
+                <div class="col-sm-6 col-lg-3">
+                    <div class="card">  
+                        <img class="card-img-top" alt="green face" src="images/greenface.jpg">  
+                        <div class="card-body">  
+                        <h5 class="card-title">Green Face Card 1</h5>  
+                        <p class="card-text px-0">This was part of an art project called "Plot Holes." Here I have painted my face chroma-green, thus embodying a greenscreen.</p>  
+                        </div>  
+                    </div>
+                </div> 
+                <div class="col-sm-6 col-lg-3">
+                    <div class="card">  
+                        <img class="card-img-top" alt="green face" src="images/greenface.jpg">  
+                        <div class="card-body">  
+                        <h5 class="card-title">Green Face Card 2</h5>  
+                        <p class="card-text px-0">These cards are a great way to showcase a thumbnail with a title and description</p>  
+                        </div>  
+                    </div>
+                </div> 
+                <div class="col-sm-6 col-lg-3">
+                    <div class="card">  
+                        <img class="card-img-top" alt="green face" src="images/greenface.jpg">  
+                        <div class="card-body">  
+                        <h5 class="card-title">Green Face Card 3</h5>  
+                        <p class="card-text" style="padding: 0px;">...Or if you have products.</p>  
+                        </div>  
+                    </div>
+                </div> 
+                <div class="col-sm-6 col-lg-3">
+                    <div class="card">  
+                        <img class="card-img-top" alt="green face" src="images/greenface.jpg">  
+                        <div class="card-body">  
+                        <h5 class="card-title">Green Face Card 4</h5>  
+                        <p class="card-text px-0">4 seemed like a good amount of cards for the width of my 13" laptop. The responsive nature of bootstrap should adjust the layout to look good on many devices.</p>  
+                        </div>  
+                    </div>
+                </div>  
+            </div>  
+        </div>
+  <!--Bootstrap Example #6: Bootstrap form wrapped in a conatiner with a row class, then sized to be about 4/3 of the width of the page-->
+    <div class="row">
+    <div class="container bg-light text-center col-7 py-4 px-4 my-5">    
+        <form>
+            <div class="form-group">
+                <label for="emailform">Email address</label>
+                <input type="email" class="form-control" id="emailform" aria-describedby="emailHelp">
+                <small id="emailHelp" class="form-text text-muted">please enter your email</small>
+            </div>
+            <div class="form-group form-check">
+            <input type="checkbox" class="form-check-input" id="checkboxdemo">
+            <label class="form-check-label" for="checkboxdemo">Bootstrap Checkbox Demo</label>
+            </div>
+            <button type="submit" class="btn btn-primary">Submit</button>
+        </form>
+    </div>
+    </div>
+<!--Bootstrap Example #7 : Modal Eaxmple -->
+
+<!--Button to trigger modal window, wrapped in a row div and container div -->
+<div class="row bg-warning mb-5">
+    <div class="container col-8 text-center my-5 px-5">
+        <button type="button" class="btn btn-dark btn-md" data-toggle="modal" data-target="#demoModalAnimation">
+        Click Me for Modal Test!
+        </button>
+    </div>
+</div>
+  
+<!-- Modal window with a fade animation-->
+ 
+    <div class="modal fade" id="demoModalAnimation" tabindex="-1" role="dialog" aria-labelledby="modalLabel">
+        <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+            <h4 class="modal-title" id="modalLabel">Thank You for Clicking!</h4>
+            </div>
+            <div class="modal-body">
+            You have experienced my modal window with a fade animation
+            </div>
+            <div class="modal-footer">
+            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+        </div>
+    </div>
+ 
+<!-- Bootstrap Example #8: Carousel slideshow-->  
+<div class="row">
+    <div class="container col-10">
+        <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+            <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+            </ol>
+            <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="images/test1.jpg" class="d-block w-100" alt="cellphone">
+            </div>
+            <div class="carousel-item">
+                <img src="images/test2.jpg" class="d-block w-100" alt="tools">
+            </div>
+            <div class="carousel-item">
+                <img src="images/test3.jpg" class="d-block w-100" alt="art">
+            </div>
+            </div>
+            <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+            </a>
+        </div>
+    </div>
+</div>
+
+<!-- Bootstrap Example #9: Loading Spinner-->  
+<div class="row">
+    <div class="container col-6 bg-light my-5 py-3">
+        <div class="d-flex align-items-center">
+            <strong>Loading Forever & Ever...</strong>
+            <div class="spinner-border ml-auto" role="status" aria-hidden="true"></div>
+        </div>
+     </div>
+</div>
+<!-- Bootstrap Example #10: List Group with active item-->  
+<div class="row">
+    <div class="container col-8 bg-light my-5 py-4">
+        <ul class="list-group">
+            <li class="list-group-item active">This item is active!</li>
+            <li class="list-group-item">item 2</li>
+            <li class="list-group-item">item 3</li>
+            <li class="list-group-item">item 4</li>
+          </ul>
+    </div>
+</div>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+  </body>
+</html>
