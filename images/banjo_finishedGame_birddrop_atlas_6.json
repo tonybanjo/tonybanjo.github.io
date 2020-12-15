@@ -1,6 +1,6 @@
 ﻿{"frames": {
 
-"CachedBmp_8587":
+"CachedBmp_208":
 {
 	"frame": {"x":770,"y":808,"w":400,"h":806},
 	"rotated": false,
@@ -8,7 +8,7 @@
 	"spriteSourceSize": {"x":0,"y":0,"w":400,"h":806},
 	"sourceSize": {"w":400,"h":806}
 },
-"CachedBmp_8589":
+"CachedBmp_210":
 {
 	"frame": {"x":770,"y":0,"w":400,"h":806},
 	"rotated": false,
@@ -16,7 +16,7 @@
 	"spriteSourceSize": {"x":0,"y":0,"w":400,"h":806},
 	"sourceSize": {"w":400,"h":806}
 },
-"CachedBmp_8596":
+"CachedBmp_217":
 {
 	"frame": {"x":0,"y":962,"w":768,"h":479},
 	"rotated": false,
@@ -24,7 +24,7 @@
 	"spriteSourceSize": {"x":0,"y":0,"w":768,"h":479},
 	"sourceSize": {"w":768,"h":479}
 },
-"CachedBmp_8597":
+"CachedBmp_218":
 {
 	"frame": {"x":0,"y":481,"w":768,"h":479},
 	"rotated": false,
@@ -32,7 +32,7 @@
 	"spriteSourceSize": {"x":0,"y":0,"w":768,"h":479},
 	"sourceSize": {"w":768,"h":479}
 },
-"CachedBmp_8598":
+"CachedBmp_219":
 {
 	"frame": {"x":0,"y":0,"w":768,"h":479},
 	"rotated": false,
@@ -40,7 +40,7 @@
 	"spriteSourceSize": {"x":0,"y":0,"w":768,"h":479},
 	"sourceSize": {"w":768,"h":479}
 },
-"CachedBmp_8612":
+"CachedBmp_233":
 {
 	"frame": {"x":1172,"y":0,"w":688,"h":446},
 	"rotated": false,
@@ -48,7 +48,7 @@
 	"spriteSourceSize": {"x":0,"y":0,"w":688,"h":446},
 	"sourceSize": {"w":688,"h":446}
 },
-"CachedBmp_8616":
+"CachedBmp_237":
 {
 	"frame": {"x":1172,"y":448,"w":663,"h":420},
 	"rotated": false,
@@ -56,7 +56,7 @@
 	"spriteSourceSize": {"x":0,"y":0,"w":663,"h":420},
 	"sourceSize": {"w":663,"h":420}
 },
-"CachedBmp_8620":
+"CachedBmp_241":
 {
 	"frame": {"x":0,"y":1443,"w":688,"h":446},
 	"rotated": false,
@@ -64,7 +64,7 @@
 	"spriteSourceSize": {"x":0,"y":0,"w":688,"h":446},
 	"sourceSize": {"w":688,"h":446}
 },
-"CachedBmp_8623":
+"CachedBmp_244":
 {
 	"frame": {"x":1354,"y":1368,"w":533,"h":496},
 	"rotated": false,
@@ -72,7 +72,7 @@
 	"spriteSourceSize": {"x":0,"y":0,"w":533,"h":496},
 	"sourceSize": {"w":533,"h":496}
 },
-"CachedBmp_8624":
+"CachedBmp_245":
 {
 	"frame": {"x":690,"y":1616,"w":662,"h":421},
 	"rotated": false,
@@ -80,7 +80,7 @@
 	"spriteSourceSize": {"x":0,"y":0,"w":662,"h":421},
 	"sourceSize": {"w":662,"h":421}
 },
-"CachedBmp_8627":
+"CachedBmp_248":
 {
 	"frame": {"x":1172,"y":870,"w":533,"h":496},
 	"rotated": false,

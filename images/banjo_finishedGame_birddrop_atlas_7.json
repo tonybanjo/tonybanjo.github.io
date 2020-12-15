@@ -1,14 +1,6 @@
 ﻿{"frames": {
 
-"CachedBmp_4548":
-{
-	"frame": {"x":0,"y":1779,"w":872,"h":236},
-	"rotated": false,
-	"trimmed": false,
-	"spriteSourceSize": {"x":0,"y":0,"w":872,"h":236},
-	"sourceSize": {"w":872,"h":236}
-},
-"CachedBmp_8610":
+"CachedBmp_231":
 {
 	"frame": {"x":1725,"y":1370,"w":295,"h":467},
 	"rotated": false,
@@ -16,7 +8,7 @@
 	"spriteSourceSize": {"x":0,"y":0,"w":295,"h":467},
 	"sourceSize": {"w":295,"h":467}
 },
-"CachedBmp_8611":
+"CachedBmp_232":
 {
 	"frame": {"x":1040,"y":1543,"w":295,"h":467},
 	"rotated": false,
@@ -24,7 +16,7 @@
 	"spriteSourceSize": {"x":0,"y":0,"w":295,"h":467},
 	"sourceSize": {"w":295,"h":467}
 },
-"CachedBmp_8613":
+"CachedBmp_234":
 {
 	"frame": {"x":1061,"y":0,"w":524,"h":453},
 	"rotated": false,
@@ -32,7 +24,7 @@
 	"spriteSourceSize": {"x":0,"y":0,"w":524,"h":453},
 	"sourceSize": {"w":524,"h":453}
 },
-"CachedBmp_8614":
+"CachedBmp_235":
 {
 	"frame": {"x":1040,"y":1111,"w":386,"h":430},
 	"rotated": false,
@@ -40,7 +32,7 @@
 	"spriteSourceSize": {"x":0,"y":0,"w":386,"h":430},
 	"sourceSize": {"w":386,"h":430}
 },
-"CachedBmp_8615":
+"CachedBmp_236":
 {
 	"frame": {"x":0,"y":498,"w":533,"h":496},
 	"rotated": false,
@@ -48,7 +40,7 @@
 	"spriteSourceSize": {"x":0,"y":0,"w":533,"h":496},
 	"sourceSize": {"w":533,"h":496}
 },
-"CachedBmp_8617":
+"CachedBmp_238":
 {
 	"frame": {"x":535,"y":455,"w":524,"h":453},
 	"rotated": false,
@@ -56,7 +48,7 @@
 	"spriteSourceSize": {"x":0,"y":0,"w":524,"h":453},
 	"sourceSize": {"w":524,"h":453}
 },
-"CachedBmp_8618":
+"CachedBmp_239":
 {
 	"frame": {"x":652,"y":1342,"w":386,"h":430},
 	"rotated": false,
@@ -64,7 +56,7 @@
 	"spriteSourceSize": {"x":0,"y":0,"w":386,"h":430},
 	"sourceSize": {"w":386,"h":430}
 },
-"CachedBmp_8619":
+"CachedBmp_240":
 {
 	"frame": {"x":0,"y":0,"w":533,"h":496},
 	"rotated": false,
@@ -72,7 +64,7 @@
 	"spriteSourceSize": {"x":0,"y":0,"w":533,"h":496},
 	"sourceSize": {"w":533,"h":496}
 },
-"CachedBmp_8621":
+"CachedBmp_242":
 {
 	"frame": {"x":0,"y":996,"w":524,"h":453},
 	"rotated": false,
@@ -80,7 +72,7 @@
 	"spriteSourceSize": {"x":0,"y":0,"w":524,"h":453},
 	"sourceSize": {"w":524,"h":453}
 },
-"CachedBmp_8622":
+"CachedBmp_243":
 {
 	"frame": {"x":535,"y":910,"w":386,"h":430},
 	"rotated": false,
@@ -88,7 +80,7 @@
 	"spriteSourceSize": {"x":0,"y":0,"w":386,"h":430},
 	"sourceSize": {"w":386,"h":430}
 },
-"CachedBmp_8625":
+"CachedBmp_246":
 {
 	"frame": {"x":535,"y":0,"w":524,"h":453},
 	"rotated": false,
@@ -96,7 +88,7 @@
 	"spriteSourceSize": {"x":0,"y":0,"w":524,"h":453},
 	"sourceSize": {"w":524,"h":453}
 },
-"CachedBmp_8626":
+"CachedBmp_247":
 {
 	"frame": {"x":1587,"y":0,"w":386,"h":430},
 	"rotated": false,
@@ -104,7 +96,7 @@
 	"spriteSourceSize": {"x":0,"y":0,"w":386,"h":430},
 	"sourceSize": {"w":386,"h":430}
 },
-"CachedBmp_8628":
+"CachedBmp_249":
 {
 	"frame": {"x":1725,"y":901,"w":295,"h":467},
 	"rotated": false,
@@ -112,7 +104,7 @@
 	"spriteSourceSize": {"x":0,"y":0,"w":295,"h":467},
 	"sourceSize": {"w":295,"h":467}
 },
-"CachedBmp_8629":
+"CachedBmp_250":
 {
 	"frame": {"x":1713,"y":432,"w":295,"h":467},
 	"rotated": false,
@@ -120,7 +112,7 @@
 	"spriteSourceSize": {"x":0,"y":0,"w":295,"h":467},
 	"sourceSize": {"w":295,"h":467}
 },
-"CachedBmp_8630":
+"CachedBmp_251":
 {
 	"frame": {"x":1428,"y":1111,"w":295,"h":467},
 	"rotated": false,
@@ -128,7 +120,7 @@
 	"spriteSourceSize": {"x":0,"y":0,"w":295,"h":467},
 	"sourceSize": {"w":295,"h":467}
 },
-"CachedBmp_8631":
+"CachedBmp_252":
 {
 	"frame": {"x":1061,"y":783,"w":650,"h":326},
 	"rotated": false,
@@ -136,7 +128,7 @@
 	"spriteSourceSize": {"x":0,"y":0,"w":650,"h":326},
 	"sourceSize": {"w":650,"h":326}
 },
-"CachedBmp_8632":
+"CachedBmp_253":
 {
 	"frame": {"x":1061,"y":455,"w":650,"h":326},
 	"rotated": false,
@@ -144,13 +136,21 @@
 	"spriteSourceSize": {"x":0,"y":0,"w":650,"h":326},
 	"sourceSize": {"w":650,"h":326}
 },
-"CachedBmp_8633":
+"CachedBmp_254":
 {
 	"frame": {"x":0,"y":1451,"w":650,"h":326},
 	"rotated": false,
 	"trimmed": false,
 	"spriteSourceSize": {"x":0,"y":0,"w":650,"h":326},
 	"sourceSize": {"w":650,"h":326}
+},
+"CachedBmp_51":
+{
+	"frame": {"x":0,"y":1779,"w":872,"h":236},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":872,"h":236},
+	"sourceSize": {"w":872,"h":236}
 }},
 "meta": {
 	"app": "Adobe Animate",
